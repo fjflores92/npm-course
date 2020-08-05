@@ -6,7 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["js", "node", "nodejs", "npm", "javascript"],
+  "keywords": [
+    "js",
+    "node",
+    "nodejs",
+    "npm",
+    "javascript"
+  ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.27.0",
+    "webpack": "4.44.1"
+  },
+  "devDependencies": {
+    "date-fns": "^2.15.0"
+  },
+  "optionalDependencies": {
+    "eslint": "^7.6.0"
+  }
 }
